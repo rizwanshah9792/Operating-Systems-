@@ -1,0 +1,4 @@
+This program demonstrates file locking in C using fcntl().
+It ensures that only one process can read a file at a time.
+When executed in multiple terminals, the second process must wait
+until the first process releases the lock before reading the file.

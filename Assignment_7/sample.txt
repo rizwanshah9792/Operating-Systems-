@@ -1,0 +1,7 @@
+Create two C programs:
+program1.c → Reads the file first.
+program2.c → Reads the file only after program1 reads it.
+Use Semaphore to control the order and synchronize both programs.
+If program1 runs n times, program2 should read the file exactly n times, not more.
+Finally, remove the semaphore properly.
+
